@@ -144,7 +144,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1SZkqvUV77XBdZwF11ZlnCsIM7t" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -158,8 +158,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -295,6 +295,7 @@
       <workItem from="1571779343975" duration="102000" />
       <workItem from="1571779463138" duration="690000" />
       <workItem from="1571780433979" duration="10000" />
+      <workItem from="1571780723769" duration="157000" />
     </task>
     <servers />
   </component>
