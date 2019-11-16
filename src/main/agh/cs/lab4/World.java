@@ -2,6 +2,7 @@ package agh.cs.lab4;
 
 import agh.cs.lab2.*;
 import agh.cs.lab3.*;
+import agh.cs.lab5.AbstractWorldMap;
 
 public class World {
     public static void main(String[] args){

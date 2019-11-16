@@ -9,13 +9,76 @@ public class AnimalAndOptionsParserTest {
     OptionsParser pars = new OptionsParser();
 
     @Test
-    void moveTest() {
-        assertEquals(animal.toString(), ("orientacja : " + MapDirection.NORTH.toString() + " \npozycja : " + new Vector2d (2,2).toString()));
+    void settingTest(){
+        assertEquals(animal.getPosition(), new Vector2d (2,2));
+        assertEquals(animal.getOrientation(), MapDirection.NORTH);
+    }
+
+    @Test
+    void turningTest() {
+
+
         animal.move(MoveDirection.RIGHT);
+        assertEquals(animal.getOrientation(), MapDirection.EAST);
+        assertEquals(animal.getPosition(), new Vector2d (2,2));
+        animal.move(MoveDirection.RIGHT);
+        assertEquals(animal.getOrientation(), MapDirection.SOUTH);
+        assertEquals(animal.getPosition(), new Vector2d (2,2));
+        animal.move(MoveDirection.RIGHT);
+        assertEquals(animal.getOrientation(), MapDirection.WEST);
+        assertEquals(animal.getPosition(), new Vector2d (2,2));
+        animal.move(MoveDirection.RIGHT);
+        assertEquals(animal.getOrientation(), MapDirection.NORTH);
+        assertEquals(animal.getPosition(), new Vector2d (2,2));
+
+        animal.move(MoveDirection.LEFT);
+        assertEquals(animal.getOrientation(), MapDirection.WEST);
+        assertEquals(animal.getPosition(), new Vector2d (2,2));
+        animal.move(MoveDirection.LEFT);
+        assertEquals(animal.getOrientation(), MapDirection.SOUTH);
+        assertEquals(animal.getPosition(), new Vector2d (2,2));
+        animal.move(MoveDirection.LEFT);
+        assertEquals(animal.getOrientation(), MapDirection.EAST);
+        assertEquals(animal.getPosition(), new Vector2d (2,2));
+        animal.move(MoveDirection.LEFT);
+        assertEquals(animal.getOrientation(), MapDirection.NORTH);
+        assertEquals(animal.getPosition(), new Vector2d (2,2));
+
+
+    }
+
+    @Test
+    void orientTest()  {
         animal.move(MoveDirection.FORWARD);
+        assertEquals(animal.getOrientation(), MapDirection.NORTH);
+        assertEquals(animal.getPosition(), new Vector2d (2,3));
         animal.move(MoveDirection.FORWARD);
+        assertEquals(animal.getOrientation(), MapDirection.NORTH);
+        assertEquals(animal.getPosition(), new Vector2d (2,4));
         animal.move(MoveDirection.FORWARD);
-        assertEquals(animal.toString(), ("orientacja : " + MapDirection.EAST.toString() + " \npozycja : " + new Vector2d(4,2).toString()));
+        assertEquals(animal.getOrientation(), MapDirection.NORTH);
+        assertEquals(animal.getPosition(), new Vector2d (2,4));
+        animal.move(MoveDirection.BACKWARD);
+        assertEquals(animal.getOrientation(), MapDirection.NORTH);
+        assertEquals(animal.getPosition(), new Vector2d (2,3));
+
+    }
+
+    @Test
+    void moveTest(){
+        animal.move(MoveDirection.FORWARD);
+        assertEquals(animal.getOrientation(), MapDirection.NORTH);
+        assertEquals(animal.getPosition(), new Vector2d (2,3));
+        animal.move(MoveDirection.RIGHT);
+        assertEquals(animal.getOrientation(), MapDirection.EAST);
+        assertEquals(animal.getPosition(), new Vector2d (2,3));
+        animal.move(MoveDirection.BACKWARD);
+        assertEquals(animal.getOrientation(), MapDirection.EAST);
+        assertEquals(animal.getPosition(), new Vector2d (1,3));
+        animal.move(MoveDirection.LEFT);
+        assertEquals(animal.getOrientation(), MapDirection.NORTH);
+        assertEquals(animal.getPosition(), new Vector2d (1,3));
+
     }
 
     @Test

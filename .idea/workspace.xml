@@ -1,134 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4331d3ad-45b6-4735-9602-69013734006e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaLaby/.idea/Java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaLaby/laby3/laby3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../II/Fizyka-spr/cw 0.pages" beforeDir="false" afterPath="$PROJECT_DIR$/../II/Fizyka-spr/cw 0.pages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../READ.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SQLzad1.rtf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Zrzut ekranu 2019-10-18 o 15.47.13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Zrzut ekranu 2019-10-18 o 16.24.55.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Java.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="4331d3ad-45b6-4735-9602-69013734006e" name="Default Changelist" comment="lab 4 update">
+      <change afterPath="$PROJECT_DIR$" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desktop/Java/PO/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desktop/Java/PO/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desktop/Java/PO/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desktop/Java/PO/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desktop/Java/PO/laby2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desktop/Java/PO/out/production/laby2/META-INF/laby2.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desktop/Java/PO/out/production/laby2/agh/cs/lab2/CarSystem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desktop/Java/PO/out/production/laby2/agh/cs/lab2/MapDirection$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desktop/Java/PO/out/production/laby2/agh/cs/lab2/MapDirection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desktop/Java/PO/out/production/laby2/agh/cs/lab2/MoveDirection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desktop/Java/PO/out/production/laby2/agh/cs/lab2/Vector2d.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desktop/Java/PO/out/production/laby2/agh/cs/lab3/Animal$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desktop/Java/PO/out/production/laby2/agh/cs/lab3/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desktop/Java/PO/out/production/laby2/agh/cs/lab3/OptionsParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desktop/Java/PO/out/production/laby2/agh/cs/lab3/World.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desktop/Java/PO/out/test/laby2/META-INF/laby2.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desktop/Java/PO/out/test/laby2/MapDirectionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desktop/Java/PO/out/test/laby2/agh/cs/lab2/Vector2dTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desktop/Java/PO/out/test/laby2/agh/cs/lab3/AnimalTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desktop/Java/PO/out/test/laby2/agh/cs/lab3/OptionsParserTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desktop/Java/PO/src/agh/cs/laby2/MapDirectionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desktop/Java/PO/src/agh/cs/laby2/Vector2dTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desktop/Java/PO/src/main/agh/cs/lab2/CarSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desktop/Java/PO/src/main/agh/cs/lab2/MapDirection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desktop/Java/PO/src/main/agh/cs/lab2/MoveDirection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desktop/Java/PO/src/main/agh/cs/lab2/Vector2d.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desktop/Java/PO/src/main/agh/cs/lab3/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desktop/Java/PO/src/main/agh/cs/lab3/OptionsParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desktop/Java/PO/src/main/agh/cs/lab3/World.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desktop/Java/PO/src/test/agh/cs/lab2/MapDirectionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desktop/Java/PO/src/test/agh/cs/lab2/Vector2dTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desktop/Java/PO/src/test/agh/cs/lab3/AnimalTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desktop/Java/PO/src/test/agh/cs/lab3/OptionsParserTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PO/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PO/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PO/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PO/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PO/laby2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PO/out/production/laby2/agh/cs/lab2/MapDirection$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PO/out/production/laby2/agh/cs/lab2/MapDirection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PO/out/production/laby2/agh/cs/lab2/MoveDirection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PO/out/production/laby2/agh/cs/lab2/Vector2d.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PO/out/production/laby2/agh/cs/lab2/World.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PO/out/production/laby2/agh/cs/lab3/Animal$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PO/out/production/laby2/agh/cs/lab3/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PO/out/production/laby2/agh/cs/lab3/OptionsParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PO/out/production/laby2/agh/cs/lab3/World.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PO/out/production/laby2/agh/cs/laby3/Animal$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PO/out/production/laby2/agh/cs/laby3/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PO/out/production/laby2/agh/cs/laby3/OptionsParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PO/out/production/laby2/agh/cs/laby3/World.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PO/out/test/laby2/MapDirectionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PO/out/test/laby2/agh/cs/lab2/Vector2dTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PO/out/test/laby2/agh/cs/lab3/AnimalTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PO/out/test/laby2/agh/cs/lab3/OptionsParserTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PO/src/agh/cs/laby2/MapDirectionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PO/src/agh/cs/laby2/Vector2dTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PO/src/main/agh/cs/lab2/MapDirection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PO/src/main/agh/cs/lab2/MoveDirection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PO/src/main/agh/cs/lab2/Vector2d.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PO/src/main/agh/cs/lab2/World.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PO/src/main/agh/cs/lab3/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PO/src/main/agh/cs/lab3/OptionsParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PO/src/main/agh/cs/lab3/World.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PO/src/main/agh/cs/laby3/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PO/src/main/agh/cs/laby3/OptionsParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PO/src/main/agh/cs/laby3/World.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PO/src/test/agh/cs/lab2/MapDirectionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PO/src/test/agh/cs/lab2/Vector2dTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PO/src/test/agh/cs/lab3/AnimalTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PO/src/test/agh/cs/lab3/OptionsParserTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Polak2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Polak2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Polak2/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Polak2/Polak2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Polak2/out/production/Polak2/lab2/Day$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Polak2/out/production/Polak2/lab2/Day.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Polak2/out/production/Polak2/lab2/DeanerySystem$Term.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Polak2/out/production/Polak2/lab2/DeanerySystem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Polak2/src/lab2/Day.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Polak2/src/lab2/DeanerySystem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cwiczenie1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cwiczenie1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cwiczenie1/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cwiczenie1/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cwiczenie1/cwiczenie1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cwiczenie1/out/production/cwiczenie1/META-INF/cwiczenie1.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cwiczenie1/out/production/cwiczenie1/agh/cs/cw/Speed.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cwiczenie1/src/agh/cs/cw/Speed.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/lab.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/out/Direction" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/out/production/lab/agh/cs/lab/Direction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/out/production/lab/agh/cs/lab/World$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/out/production/lab/agh/cs/lab/World.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/src/agh/cs/lab/Direction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/src/agh/cs/lab/Direction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/src/agh/cs/lab/World$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/src/agh/cs/lab/World.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/src/agh/cs/lab/World.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laby3/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laby3/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laby3/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laby3/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laby3/laby3.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laby3/out/production/laby3/META-INF/laby3.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laby3/out/production/laby3/agh/cs/lab3/Animal$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laby3/out/production/laby3/agh/cs/lab3/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laby3/out/production/laby3/agh/cs/lab3/MapDirection$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laby3/out/production/laby3/agh/cs/lab3/MapDirection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laby3/out/production/laby3/agh/cs/lab3/MoveDirection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laby3/out/production/laby3/agh/cs/lab3/Vector2d.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laby3/out/production/laby3/agh/cs/lab3/World.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laby3/src/agh/cs/lab3/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laby3/src/agh/cs/lab3/MapDirection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laby3/src/agh/cs/lab3/MoveDirection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laby3/src/agh/cs/lab3/OptionsParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laby3/src/agh/cs/lab3/Vector2d.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laby3/src/agh/cs/lab3/World.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polak_17_18/Ćwiczenia 11-13.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polak_17_18/Ćwiczenia 8-10.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polak_17_18/Ćwiczenie 2.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polak_17_18/Ćwiczenie 4.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polak_17_18/Ćwiczenie 5.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polak_17_18/Ćwiczenie 6.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polak_17_18/Ćwiczenie 7.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/lab2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/out/production/lab2/META-INF/lab2.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/out/production/lab2/agh/cs/lab2/MapDirection$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/out/production/lab2/agh/cs/lab2/MapDirection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/out/production/lab2/agh/cs/lab2/MoveDirection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/out/production/lab2/agh/cs/lab2/Vector2d.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/out/production/lab2/agh/cs/lab2/World.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/out/test/lab2/agh/cs/lab2/MapDirectionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/out/test/lab2/agh/cs/lab2/Vector2dTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/agh/cs/lab2/MapDirection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/agh/cs/lab2/MoveDirection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/agh/cs/lab2/Vector2d.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/agh/cs/lab2/World.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/test/agh/cs/lab2/MapDirectionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/test/agh/cs/lab2/Vector2dTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PO.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PO/agh/cs/lab2/Vector2d.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PO/agh/cs/lab2/Vector2d.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PO/agh/cs/lab3/Animal$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PO/agh/cs/lab3/Animal$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PO/agh/cs/lab3/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PO/agh/cs/lab3/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PO/agh/cs/lab3/OptionsParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PO/agh/cs/lab3/OptionsParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/PO/agh/cs/lab3/AnimalAndOptionsParserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/PO/agh/cs/lab3/AnimalAndOptionsParserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/agh/cs/lab2/Vector2d.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/Vector2d.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/agh/cs/lab3/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/agh/cs/lab3/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/agh/cs/lab3/OptionsParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/agh/cs/lab3/OptionsParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/agh/cs/lab4/RectangularMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/agh/cs/lab4/RectangularMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/agh/cs/lab4/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/agh/cs/lab4/World.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/agh/cs/lab3/AnimalAndOptionsParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/agh/cs/lab3/AnimalAndOptionsParserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/agh/cs/lab4/RectangularMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/agh/cs/lab4/RectangularMapTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -139,12 +61,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="ProjectId" id="1SZkqvUV77XBdZwF11ZlnCsIM7t" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -163,6 +87,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="agh.cs.lab4" />
       <recent name="agh.cs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -183,13 +108,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AnimalAndOptionsParserTest.parseTest">
-    <configuration name="World (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="agh.cs.lab3.World" />
+  <component name="RunManager" selected="JUnit.RectangularMapTest.IntegrationTest">
+    <configuration name="World" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="agh.cs.lab5.World" />
       <module name="PO" />
+      <option name="PROGRAM_PARAMETERS" value="f b r l f f r r f f f f f f f f" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="agh.cs.lab3.*" />
+          <option name="PATTERN" value="agh.cs.lab5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="World" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="agh.cs.lab5.World" />
+      <module name="PO" />
+      <option name="PROGRAM_PARAMETERS" value="f b r l f f r r f f f f f f f f" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="agh.cs.lab5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,11 +138,12 @@
       </method>
     </configuration>
     <configuration name="World" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.cs.lab2.World" />
+      <option name="MAIN_CLASS_NAME" value="agh.cs.lab4.World" />
       <module name="PO" />
+      <option name="PROGRAM_PARAMETERS" value="f b r l f f r r f f f f f f f f" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.cs.lab2.*" />
+          <option name="PATTERN" value="agh.cs.lab4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,74 +151,82 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnimalAndOptionsParserTest.parseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GrassFieldTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="agh.cs.lab3.*" />
+          <option name="PATTERN" value="agh.cs.lab5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="agh.cs.lab3" />
-      <option name="MAIN_CLASS_NAME" value="agh.cs.lab3.AnimalAndOptionsParserTest" />
-      <option name="METHOD_NAME" value="parseTest" />
+      <option name="PACKAGE_NAME" value="agh.cs.lab5" />
+      <option name="MAIN_CLASS_NAME" value="agh.cs.lab5.GrassFieldTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GrassFieldTest.placeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="agh.cs.lab5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="agh.cs.lab5" />
+      <option name="MAIN_CLASS_NAME" value="agh.cs.lab5.GrassFieldTest" />
+      <option name="METHOD_NAME" value="placeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RectangularMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="agh.cs.lab3.*" />
+          <option name="PATTERN" value="agh.cs.lab5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="agh.cs.lab3" />
-      <option name="MAIN_CLASS_NAME" value="agh.cs.lab3.IntegrationTest" />
+      <option name="PACKAGE_NAME" value="agh.cs.lab5" />
+      <option name="MAIN_CLASS_NAME" value="agh.cs.lab5.RectangularMapTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapDirectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RectangularMapTest.IntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="agh.cs.lab2.*" />
+          <option name="PATTERN" value="agh.cs.lab5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="agh.cs.lab2" />
-      <option name="MAIN_CLASS_NAME" value="agh.cs.lab2.MapDirectionTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="agh.cs.lab5" />
+      <option name="MAIN_CLASS_NAME" value="agh.cs.lab5.RectangularMapTest" />
+      <option name="METHOD_NAME" value="IntegrationTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Vector2dTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="agh.cs.lab2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="agh.cs.lab2" />
-      <option name="MAIN_CLASS_NAME" value="agh.cs.lab2.Vector2dTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.World" />
+      <item itemvalue="JUnit.GrassFieldTest" />
+      <item itemvalue="JUnit.GrassFieldTest.placeTest" />
+      <item itemvalue="JUnit.RectangularMapTest" />
+      <item itemvalue="JUnit.RectangularMapTest.IntegrationTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AnimalAndOptionsParserTest.parseTest" />
-        <item itemvalue="JUnit.IntegrationTest" />
-        <item itemvalue="Application.World (1)" />
-        <item itemvalue="JUnit.Vector2dTest" />
-        <item itemvalue="JUnit.MapDirectionTest" />
+        <item itemvalue="JUnit.RectangularMapTest.IntegrationTest" />
+        <item itemvalue="JUnit.RectangularMapTest" />
+        <item itemvalue="JUnit.GrassFieldTest.placeTest" />
+        <item itemvalue="JUnit.GrassFieldTest" />
+        <item itemvalue="Application.World" />
       </list>
     </recent_temporary>
   </component>
@@ -296,6 +245,34 @@
       <workItem from="1571779463138" duration="690000" />
       <workItem from="1571780433979" duration="10000" />
       <workItem from="1571780723769" duration="157000" />
+      <workItem from="1571781017801" duration="143000" />
+      <workItem from="1571781215310" duration="2000" />
+      <workItem from="1571866451709" duration="2058000" />
+      <workItem from="1571896227148" duration="332000" />
+      <workItem from="1571914572567" duration="4543000" />
+      <workItem from="1572433341805" duration="2774000" />
+      <workItem from="1572518227319" duration="5857000" />
+      <workItem from="1572532393129" duration="1660000" />
+      <workItem from="1572539098198" duration="562000" />
+      <workItem from="1572973422247" duration="6522000" />
+      <workItem from="1572983066928" duration="863000" />
+      <workItem from="1572983982476" duration="1702000" />
+      <workItem from="1573041493311" duration="1188000" />
+      <workItem from="1573057014881" duration="2008000" />
+      <workItem from="1573060228457" duration="139000" />
+      <workItem from="1573071235424" duration="1172000" />
+      <workItem from="1573073056043" duration="1190000" />
+      <workItem from="1573128251930" duration="4267000" />
+      <workItem from="1573244371132" duration="6267000" />
+      <workItem from="1573251625446" duration="2000" />
+      <workItem from="1573283481551" duration="12313000" />
+      <workItem from="1573311210377" duration="561000" />
+      <workItem from="1573584715575" duration="4661000" />
+      <workItem from="1573641051422" duration="1833000" />
+      <workItem from="1573656062697" duration="20302000" />
+      <workItem from="1573681889795" duration="470000" />
+      <workItem from="1573732011002" duration="3793000" />
+      <workItem from="1573924133475" duration="5196000" />
     </task>
     <servers />
   </component>
@@ -315,15 +292,34 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lab 4 update" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab 4 update" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/agh/cs/lab3/IntegrationTest.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/src/main/agh/cs/lab5/World.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/agh/cs/lab5/RectangularMapTest.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/agh/cs/lab5/GrassFieldTest.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="68" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PO$RectangularMapTest_TestObjectAt.ic" NAME="RectangularMapTest.TestObjectAt Coverage Results" MODIFIED="1572982500599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>agh.cs.lab4.*</FILTER>
+    </SUITE>
   </component>
 </project>

@@ -28,11 +28,15 @@ public class OptionsParser {
                 case "left":
                     res[i++] = MoveDirection.LEFT;
                     break;
+                default:
+                    throw new IllegalArgumentException("is not legal");
 
             }
+
 
         }
 
         return Arrays.copyOfRange(res,0,i);
     }
 }
+

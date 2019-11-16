@@ -11,27 +11,34 @@ import org.junit.Assert;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class RectangularMapTest {
-    RectangularMap map;
+    IWorldMap map;
     Animal a1;
     Animal a2;
     OptionsParser optionsParser = new OptionsParser();
 
     @BeforeEach
-    public void setting(){
+    public void setUp(){
         map = new RectangularMap(10, 5);
-        Animal a1 = new Animal(map);
-        Animal a2 = new Animal(map, new Vector2d (3,4));
+        Animal a1 = new Animal(this.map);
+        Animal a2 = new Animal(this.map, new Vector2d (3,4));
         map.place(a1);
         map.place(a2);
     }
 
-
     @Test
     public void TestObjectAt(){
-       Assert.assertEquals(map.objectAt(new Vector2d(2,2)), map.getAnimals().get(0));
-      Assert.assertEquals(map.objectAt(new Vector2d (3,4 )), map.getAnimals().get(1));
+        Assert.assertEquals(map.objectAt(new Vector2d(2,2)), ((RectangularMap) map).getAnimals().get(0));
+      Assert.assertEquals(map.objectAt(new Vector2d (3,4 )), ((RectangularMap) map).getAnimals().get(1));
       Assert.assertNull(map.objectAt(new Vector2d (1,1)));
        Assert.assertNull(map.objectAt(new Vector2d (2,3)));
+
+        for (int i = 0; i <= 10; i++) {
+            for (int j = 0; j <=5; j++) {
+                if ((i == 2 && j == 2) || (i == 3 && j == 4))
+                    assertNotNull(map.objectAt(new Vector2d(i,j)));
+                else assertNull(map.objectAt(new Vector2d(i,j)));
+            }
+        }
 
     }
 
@@ -41,6 +48,14 @@ public class RectangularMapTest {
         Assert.assertTrue(map.isOccupied(new Vector2d (3,4)));
         Assert.assertFalse(map.isOccupied(new Vector2d (6,1)));
         Assert.assertFalse(map.isOccupied(new Vector2d (2,4)));
+
+        for (int i = 0; i <= 10; i++) {
+            for (int j = 0; j <= 5; j++) {
+                if ((i == 2 && j == 2) || (i == 3 && j == 4))
+                    assertTrue(map.isOccupied(new Vector2d(i, j)));
+                else assertFalse(map.isOccupied(new Vector2d(i, j)));
+            }
+        }
     }
 
     @Test
@@ -68,7 +83,7 @@ public class RectangularMapTest {
 
     @Test
     public void TestIntegration(){
-        String[] args = {"f", "b", "r", "l", "f", "f", "r", "r", "f", "f", "f", "f", "f", "f", "f", "f"};
+        String [] args={"f","b","r","l", "f", "f", "r", "r","f","f","f","f","f","f","f","f"};
         MoveDirection[] directions = optionsParser.parse(args);
 
         map.run(directions);
