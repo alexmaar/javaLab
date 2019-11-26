@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4331d3ad-45b6-4735-9602-69013734006e" name="Default Changelist" comment="lab 4 update">
+    <list default="true" id="4331d3ad-45b6-4735-9602-69013734006e" name="Default Changelist" comment="lab 5 update">
       <change afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Desktop/Java/PO/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Desktop/Java/PO/.idea/modules.xml" beforeDir="false" />
@@ -38,19 +38,19 @@
       <change beforePath="$PROJECT_DIR$/../Desktop/Java/PO/src/test/agh/cs/lab3/OptionsParserTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PO.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PO/agh/cs/lab2/Vector2d.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PO/agh/cs/lab2/Vector2d.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PO/agh/cs/lab3/Animal$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PO/agh/cs/lab3/Animal$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PO/agh/cs/lab3/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PO/agh/cs/lab3/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PO/agh/cs/lab3/OptionsParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PO/agh/cs/lab3/OptionsParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/PO/agh/cs/lab3/AnimalAndOptionsParserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/PO/agh/cs/lab3/AnimalAndOptionsParserTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/agh/cs/lab2/Vector2d.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/Vector2d.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PO/agh/cs/lab4/RectangularMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PO/agh/cs/lab4/RectangularMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PO/agh/cs/lab5/AbstractWorldMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PO/agh/cs/lab5/AbstractWorldMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PO/agh/cs/lab5/GrassField.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PO/agh/cs/lab5/GrassField.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PO/agh/cs/lab5/World.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PO/agh/cs/lab5/World.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/PO/agh/cs/lab5/GrassFieldTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/PO/agh/cs/lab5/GrassFieldTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/agh/cs/lab3/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/agh/cs/lab3/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/agh/cs/lab3/OptionsParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/agh/cs/lab3/OptionsParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/agh/cs/lab4/RectangularMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/agh/cs/lab4/RectangularMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/agh/cs/lab4/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/agh/cs/lab4/World.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/agh/cs/lab3/AnimalAndOptionsParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/agh/cs/lab3/AnimalAndOptionsParserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/agh/cs/lab4/RectangularMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/agh/cs/lab4/RectangularMapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/agh/cs/lab5/AbstractWorldMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/agh/cs/lab5/AbstractWorldMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/agh/cs/lab5/GrassField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/agh/cs/lab5/GrassField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/agh/cs/lab5/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/agh/cs/lab5/World.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/agh/cs/lab5/GrassFieldTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/agh/cs/lab5/GrassFieldTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +108,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RectangularMapTest.IntegrationTest">
+  <component name="RunManager" selected="JUnit.MapBoundaryGrassFieldTest.addingTest">
     <configuration name="World" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="agh.cs.lab5.World" />
       <module name="PO" />
@@ -151,48 +151,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GrassFieldTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MapBoundaryGrassFieldTest.addingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="agh.cs.lab5.*" />
+          <option name="PATTERN" value="agh.cs.lab7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="agh.cs.lab5" />
-      <option name="MAIN_CLASS_NAME" value="agh.cs.lab5.GrassFieldTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GrassFieldTest.placeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="agh.cs.lab5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="agh.cs.lab5" />
-      <option name="MAIN_CLASS_NAME" value="agh.cs.lab5.GrassFieldTest" />
-      <option name="METHOD_NAME" value="placeTest" />
+      <option name="PACKAGE_NAME" value="agh.cs.lab7" />
+      <option name="MAIN_CLASS_NAME" value="agh.cs.lab7.MapBoundaryGrassFieldTest" />
+      <option name="METHOD_NAME" value="addingTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RectangularMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MapBoundaryTest.getLowerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="agh.cs.lab5.*" />
+          <option name="PATTERN" value="agh.cs.lab7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="agh.cs.lab5" />
-      <option name="MAIN_CLASS_NAME" value="agh.cs.lab5.RectangularMapTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="agh.cs.lab7" />
+      <option name="MAIN_CLASS_NAME" value="agh.cs.lab7.MapBoundaryTest" />
+      <option name="METHOD_NAME" value="getLowerTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapBoundaryTest.getUpperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="agh.cs.lab7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="agh.cs.lab7" />
+      <option name="MAIN_CLASS_NAME" value="agh.cs.lab7.MapBoundaryTest" />
+      <option name="METHOD_NAME" value="getUpperTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -215,18 +217,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.World" />
-      <item itemvalue="JUnit.GrassFieldTest" />
-      <item itemvalue="JUnit.GrassFieldTest.placeTest" />
-      <item itemvalue="JUnit.RectangularMapTest" />
       <item itemvalue="JUnit.RectangularMapTest.IntegrationTest" />
+      <item itemvalue="JUnit.MapBoundaryTest.getLowerTest" />
+      <item itemvalue="JUnit.MapBoundaryTest.getUpperTest" />
+      <item itemvalue="JUnit.MapBoundaryGrassFieldTest.addingTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RectangularMapTest.IntegrationTest" />
-        <item itemvalue="JUnit.RectangularMapTest" />
-        <item itemvalue="JUnit.GrassFieldTest.placeTest" />
-        <item itemvalue="JUnit.GrassFieldTest" />
+        <item itemvalue="JUnit.MapBoundaryGrassFieldTest.addingTest" />
         <item itemvalue="Application.World" />
+        <item itemvalue="JUnit.MapBoundaryTest.getUpperTest" />
+        <item itemvalue="JUnit.MapBoundaryTest.getLowerTest" />
+        <item itemvalue="JUnit.RectangularMapTest.IntegrationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +274,10 @@
       <workItem from="1573656062697" duration="20302000" />
       <workItem from="1573681889795" duration="470000" />
       <workItem from="1573732011002" duration="3793000" />
-      <workItem from="1573924133475" duration="5196000" />
+      <workItem from="1573924133475" duration="5440000" />
+      <workItem from="1574331757405" duration="2369000" />
+      <workItem from="1574523842482" duration="2674000" />
+      <workItem from="1574797650457" duration="11446000" />
     </task>
     <servers />
   </component>
@@ -294,14 +299,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lab 4 update" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab 4 update" />
+    <MESSAGE value="lab 5 update" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab 5 update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/agh/cs/lab5/World.java</url>
-          <line>7</line>
+          <line>6</line>
           <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -311,7 +317,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/agh/cs/lab5/GrassFieldTest.java</url>
-          <line>96</line>
+          <line>94</line>
           <option name="timeStamp" value="68" />
         </line-breakpoint>
       </breakpoints>

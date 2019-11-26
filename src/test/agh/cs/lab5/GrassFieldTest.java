@@ -4,10 +4,8 @@ import org.junit.jupiter.api.BeforeEach;
 import agh.cs.lab2.*;
 import agh.cs.lab4.*;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
 import org.junit.Assert;
-import org.junit.Before;
+
 
 public class GrassFieldTest {
     IWorldMap map;

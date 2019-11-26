@@ -5,17 +5,23 @@ import agh.cs.lab2.*;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import agh.cs.lab7.*;
 
 import java.util.ArrayList;
 
 
-abstract public class AbstractWorldMap implements IWorldMap {
+abstract public class AbstractWorldMap implements IWorldMap,IPositionChangeObserver {
     public List<Animal> animals = new ArrayList<>();
-     protected Map<Vector2d , IMapElement> elementsMap = new HashMap<>();
+    protected Map<Vector2d , IMapElement> elementsMap = new HashMap<>();
+    public MapBoundary mapBoundary =new MapBoundary();
 
-    public abstract Vector2d getLowerLeft();
-    public abstract Vector2d getUpperRight();
+    public  Vector2d getLowerLeft() {
+        return mapBoundary.getLowerLeft();
+    }
 
+    public Vector2d getUpperRight(){
+        return mapBoundary.getUpperRight();
+    }
 
     @Override
     public boolean isOccupied(Vector2d position) {
@@ -32,11 +38,20 @@ abstract public class AbstractWorldMap implements IWorldMap {
             Vector2d tmp = animal.getPosition();
             elementsMap.remove(tmp);
             animal.move(directions[i]);
+            positionChanged(tmp, animal.getPosition());
+
             elementsMap.put(animal.getPosition(),animal);
+            mapBoundary.addPosition((animal.getPosition()));
 
         }
     }
 
+    @Override
+    public void positionChanged(Vector2d oldPosition, Vector2d newPosition){
+        Animal animal = (Animal) elementsMap.get(oldPosition);
+        elementsMap.remove(oldPosition);
+        elementsMap.put(newPosition, animal);
+    }
 
 
     @Override
@@ -50,8 +65,6 @@ abstract public class AbstractWorldMap implements IWorldMap {
         return this.elementsMap.get(position);
     }
 
-
-
     @Override
     public boolean place(Animal animal)  {
         if (!this.canMoveTo(animal.getPosition())) {
@@ -59,6 +72,9 @@ abstract public class AbstractWorldMap implements IWorldMap {
         }
         this.animals.add(animal);
         this.elementsMap.put(animal.getPosition(),animal);
+        mapBoundary.addPosition(animal.getPosition());
+        animal.addObserver(this);
+        animal.addObserver(mapBoundary);
         return true;
 
     }
@@ -67,11 +83,15 @@ abstract public class AbstractWorldMap implements IWorldMap {
     @Override
     public String toString(){
         MapVisualizer mapVis = new MapVisualizer(this);
-        Vector2d ll = getLowerLeft();
-        Vector2d ur = getUpperRight();
+        Vector2d ll = mapBoundary.getLowerLeft();
+        Vector2d ur = mapBoundary.getUpperRight();
         return mapVis.draw(ll, ur);
 
     }
+
+
+
+
 
 
 
