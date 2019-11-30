@@ -3,6 +3,35 @@
   <component name="ChangeListManager">
     <list default="true" id="4331d3ad-45b6-4735-9602-69013734006e" name="Default Changelist" comment="lab 5 update">
       <change afterPath="$PROJECT_DIR$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab1/Direction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab1/World.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/MapDirection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/MoveDirection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/Vector2d.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/World.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab3/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab3/OptionsParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab3/World.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab4/IWorldMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab4/MapVisualizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab4/RectangularMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab4/World.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab5/AbstractWorldMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab5/Grass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab5/GrassField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab5/IMapElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab5/World.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab7/IPositionChangeObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab7/MapBoundary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/agh/cs/lab2/MapDirectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/agh/cs/lab2/Vector2dTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/agh/cs/lab3/AnimalAndOptionsParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/agh/cs/lab3/IntegrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/agh/cs/lab4/RectangularMapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/agh/cs/lab5/GrassFieldTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/agh/cs/lab5/RectangularMapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/agh/cs/lab7/MapBoundaryGrassFieldTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/agh/cs/lab7/MapBoundaryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Desktop/Java/PO/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Desktop/Java/PO/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Desktop/Java/PO/.idea/uiDesigner.xml" beforeDir="false" />
@@ -37,20 +66,13 @@
       <change beforePath="$PROJECT_DIR$/../Desktop/Java/PO/src/test/agh/cs/lab3/AnimalTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Desktop/Java/PO/src/test/agh/cs/lab3/OptionsParserTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PO/agh/cs/lab3/Animal$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PO/agh/cs/lab3/Animal$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PO/agh/cs/lab3/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PO/agh/cs/lab3/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PO/agh/cs/lab4/RectangularMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PO/agh/cs/lab4/RectangularMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PO/agh/cs/lab5/AbstractWorldMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PO/agh/cs/lab5/AbstractWorldMap.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PO/agh/cs/lab5/GrassField.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PO/agh/cs/lab5/GrassField.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PO/agh/cs/lab5/World.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PO/agh/cs/lab5/World.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/PO/agh/cs/lab5/GrassFieldTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/PO/agh/cs/lab5/GrassFieldTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/agh/cs/lab3/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/agh/cs/lab3/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/agh/cs/lab4/RectangularMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/agh/cs/lab4/RectangularMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/agh/cs/lab5/AbstractWorldMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/agh/cs/lab5/AbstractWorldMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/PO/agh/cs/lab7/MapBoundaryGrassFieldTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/PO/agh/cs/lab7/MapBoundaryGrassFieldTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/agh/cs/lab5/GrassField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/agh/cs/lab5/GrassField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/agh/cs/lab5/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/agh/cs/lab5/World.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/agh/cs/lab5/GrassFieldTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/agh/cs/lab5/GrassFieldTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/agh/cs/lab7/MapBoundaryGrassFieldTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/agh/cs/lab7/MapBoundaryGrassFieldTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +89,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="ProjectId" id="1SZkqvUV77XBdZwF11ZlnCsIM7t" />
@@ -277,7 +299,9 @@
       <workItem from="1573924133475" duration="5440000" />
       <workItem from="1574331757405" duration="2369000" />
       <workItem from="1574523842482" duration="2674000" />
-      <workItem from="1574797650457" duration="11446000" />
+      <workItem from="1574797650457" duration="11613000" />
+      <workItem from="1574856058736" duration="511000" />
+      <workItem from="1574938775791" duration="2983000" />
     </task>
     <servers />
   </component>

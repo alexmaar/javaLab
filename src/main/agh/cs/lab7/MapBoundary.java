@@ -20,10 +20,12 @@ public class MapBoundary implements IPositionChangeObserver{
     }
 
     public Vector2d getLowerLeft(){
+        if(xPos.isEmpty()) return new Vector2d(0,0);
         return xPos.first().lowerLeft(yPos.first());
     }
 
     public Vector2d getUpperRight(){
+        if(xPos.isEmpty()) return new Vector2d(0,0);
         return xPos.last().upperRight(yPos.last());
     }
 

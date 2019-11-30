@@ -5,7 +5,7 @@ import agh.cs.lab3.*;
 public class World {
     public static void main(String[] args){
         MoveDirection[] directions = new OptionsParser().parse(args);
-        GrassField map = new GrassField (1);
+        GrassField map = new GrassField (0);
         System.out.println(map);
         try {
             map.place(new Animal(map));

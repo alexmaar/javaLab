@@ -17,17 +17,18 @@ public class GrassField extends AbstractWorldMap implements IWorldMap {
         this.elementsMap = new HashMap<>();
 
 
-        Vector2d tmp = new Vector2d(generator.nextInt((int) Math.sqrt(n * 10)), generator.nextInt((int)  Math.sqrt(n * 10)));
-        this.elementsMap.put(tmp,new Grass(tmp));
-        grasses.add(new Grass(tmp));
-        for (int i = 0; i < n; i++) {
-            while (isOccupied(tmp)) {
-                tmp = new Vector2d(generator.nextInt((int) Math.sqrt(n * 10)), generator.nextInt((int)  Math.sqrt(n * 10)));
-            }
-            this.elementsMap.put(tmp,new Grass(tmp));
+        if(n > 0) {
+            Vector2d tmp = new Vector2d(generator.nextInt((int) Math.sqrt(n * 10)), generator.nextInt((int) Math.sqrt(n * 10)));
+            this.elementsMap.put(tmp, new Grass(tmp));
             grasses.add(new Grass(tmp));
-            mapBoundary.addPosition(tmp);
-
+            for (int i = 1; i < n; i++) {
+                while (isOccupied(tmp)) {
+                    tmp = new Vector2d(generator.nextInt((int) Math.sqrt(n * 10)), generator.nextInt((int) Math.sqrt(n * 10)));
+                }
+                this.elementsMap.put(tmp, new Grass(tmp));
+                grasses.add(new Grass(tmp));
+                mapBoundary.addPosition(tmp);
+            }
         }
     }
 

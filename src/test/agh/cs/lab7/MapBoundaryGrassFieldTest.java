@@ -10,7 +10,7 @@ public class MapBoundaryGrassFieldTest {
 
     @Test
     public void addingTest(){
-        GrassField grassMap  = new GrassField(1); // ???????
+        GrassField grassMap  = new GrassField(0);
         Animal a1= new Animal(grassMap, new Vector2d (3,4));
         Animal a2= new Animal(grassMap, new Vector2d (2,5));
         Animal a3= new Animal(grassMap, new Vector2d (1,1));
